@@ -1,0 +1,69 @@
+.container {
+  background-color: #fff;
+  font-size: 32px;
+  margin: 100px;
+  width: 1000px;
+  height: 600px;
+
+  display: grid;
+  /* grid-template-columns: 200px 200px 1fr auto; make a 4 column and apply size */
+  grid-template-columns: repeat(4, 1fr); /*1fr 4times*/
+
+  /* grid-template-rows: 300px 200px; */
+  grid-template-rows: 1fr 1fr;
+  /* height: 500px; */
+  /* gap: 30px; */
+  column-gap: 20px;
+  row-gap: 40px;
+
+  /* Align item  inside container */
+  /* justify-content: center; */
+  /* align-content: center; */
+
+  /* align item inside cell */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.el--1 {
+  background-color: aqua;
+}
+
+.el--2 {
+  background-color: blueviolet;
+
+  /* change position */
+  grid-column: 1 /2;
+  grid-row: 2 / 3;
+}
+
+.el--3 {
+  background-color: burlywood;
+  /* height: 150px; */
+}
+
+.el--4 {
+  background-color: chartreuse;
+}
+
+.el--5 {
+  background-color: cornflowerblue;
+}
+
+.el--6 {
+  background-color: crimson;
+}
+
+.el--7 {
+  background-color: darkgreen;
+}
+
+.el--8 {
+  background-color: darkolivegreen;
+
+  /* change position */
+  /* grid-column: 1 / span 3; */
+  /* grid-column: 1 / -1; span */
+  grid-column: 2 /3;
+  grid-row: 1 / 2;
+}
