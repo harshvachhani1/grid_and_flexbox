@@ -1,0 +1,64 @@
+.container {
+  background-color: #fff;
+  font-size: 34px;
+  margin: 40px;
+
+  /* gap: 30px; */
+  display: flex;
+
+  /* vertical center */
+  align-items: center;
+  /* align-items: flex-start; */
+
+  /* horizontal center */
+  justify-content: center;
+
+  /* justify-content: space-between; */
+}
+
+.el {
+  /* DEFAULT 
+  whitespace cover flex-grow
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  background-color: wheat;
+}
+
+.el--1 {
+  background-color: aqua;
+  /* align-self: flex-start; */
+}
+
+.el--2 {
+  background-color: blueviolet;
+  /* align-items: stretch; */
+}
+
+.el--3 {
+  background-color: burlywood;
+  /* Apply comment and uncomment height */
+  height: 150px;
+}
+
+.el--4 {
+  background-color: chartreuse;
+}
+
+.el--5 {
+  background-color: cornflowerblue;
+  /* align-items: flex-end; */
+}
+
+.el--6 {
+  background-color: crimson;
+  /* order: -1; */
+}
+
+.el--7 {
+  background-color: darkgreen;
+}
+
+.el--8 {
+  background-color: darkolivegreen;
+}
